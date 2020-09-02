@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+        <title>HealthEdu</title>
+		<!-- Favicon -->
+		<link rel="shortcut icon" type="image/jpg" href="assets/img/logoo.jpg">
+
+        <!-- Custom CSS -->
+        <link href="assets/css/styles.css" rel="stylesheet">
+
+		<!-- Custom Color Option -->
+		<link href="assets/css/colors.css" rel="stylesheet">
+
+    </head>
+
+    <body class="red-skin">
+
+        <!-- ============================================================== -->
+
+
+        <!-- ============================================================== -->
+        <!-- Main wrapper - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <div id="main-wrapper">
+
+            <!-- ============================================================== -->
+            <!-- Top header  -->
+            <!-- ============================================================== -->
+            <!-- Start Navigation -->
+			<div class="header header-light">
+				<div class="container">
+					<nav id="navigation" class="navigation navigation-landscape">
+						<div class="nav-header">
+							<a class="nav-brand" href="#">
+								<img src="assets/img/green-logo.jpg" class="logo" alt="" />
+							</a>
+							<div class="nav-toggle"></div>
+						</div>
+						<div class="nav-menus-wrapper" style="transition-property: none;">
+							<ul class="nav-menu ">
+
+								<li><a href="index.html">Home</a></li>
+
+								<li><a href="courses.html">Courses</a></li>
+
+								<li><a href="about-us.html">About us</a></li>
+
+								<li class="active"><a href="gallery.html">Gallery</a></li>
+
+								<li><a href="contact.html">Contact</a></li>
+
+							</ul>
+
+							<ul class="nav-menu nav-menu-social align-to-right">
+
+								<li class="login_click green light">
+									<a href="#" data-toggle="modal" data-target="#login">Sign in</a>
+								</li>
+								<li class="login_click bg-green btn">
+									<a href="register.html">Sign up</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<!-- End Navigation -->
+			<div class="clearfix"></div>
+			<!-- ============================================================== -->
+			<!-- Top header  -->
+			<!-- ============================================================== -->
+
+			<!-- ============================ Page Title Start================================== -->
+			<section class="page-title">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12">
+							
+							<div class="breadcrumbs-wrap">
+								<h1 class="breadcrumb-title">Our Gallery</h1>
+								<nav aria-label="breadcrumb">
+									<ol class="breadcrumb">
+										<li class="breadcrumb-item"><a href="#">Home</a></li>
+										<li class="breadcrumb-item active" aria-current="page">Gallery</li>
+									</ol>
+								</nav>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ============================ Page Title End ================================== -->			
+
+			
+			<!-- ============================ Full Width Courses  ================================== -->
+			<section class="pt-0">
+				<div class="container">
+					
+					<!-- Onclick Sidebar -->
+					<div class="row">
+						<div class="col-md-12 col-lg-12">
+							<div id="filter-sidebar" class="filter-sidebar">
+								<div class="filt-head">
+									<h4 class="filt-first">Advance Options</h4>
+									<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close <i class="ti-close"></i></a>
+								</div>
+								<div class="show-hide-sidebar">
+									
+									<!-- Find New Property -->
+									<div class="sidebar-widgets">
+										
+										<!-- Search Form -->
+										<form class="form-inline addons mb-3">
+											<input class="form-control" type="search" placeholder="Search Courses" aria-label="Search">
+											<button class="btn my-2 my-sm-0" type="submit"><i class="ti-search"></i></button>
+										</form>	
+										
+										<h4 class="side_title">Course categories</h4>
+										<ul class="no-ul-list mb-3">
+											<li>
+												<input id="a-4" class="checkbox-custom" name="a-4" type="checkbox">
+												<label for="a-4" class="checkbox-custom-label">Backend (3)</label>
+											</li>
+											<li>
+												<input id="a-5" class="checkbox-custom" name="a-5" type="checkbox">
+												<label for="a-5" class="checkbox-custom-label">Frontend (2)</label>
+											</li>
+											<li>
+												<input id="a-6" class="checkbox-custom" name="a-6" type="checkbox">
+												<label for="a-6" class="checkbox-custom-label">General (2)</label>
+											</li>
+											<li>
+												<input id="a-7" class="checkbox-custom" name="a-7" type="checkbox">
+												<label for="a-7" class="checkbox-custom-label">IT & Software (2)</label>
+											</li>
+											<li>
+												<input id="a-8" class="checkbox-custom" name="a-8" type="checkbox">
+												<label for="a-8" class="checkbox-custom-label">Photography (2)</label>
+											</li>
+											<li>
+												<input id="a-9" class="checkbox-custom" name="a-9" type="checkbox">
+												<label for="a-9" class="checkbox-custom-label">Technology (2)</label>
+											</li>
+										</ul>
+										
+										<h4 class="side_title">Instructors</h4>
+										<ul class="no-ul-list mb-3">
+											<li>
+												<input id="a-1" class="checkbox-custom" name="a-1" type="checkbox">
+												<label for="a-1" class="checkbox-custom-label">Keny White (4)</label>
+											</li>
+											<li>
+												<input id="a-2" class="checkbox-custom" name="a-2" type="checkbox">
+												<label for="a-2" class="checkbox-custom-label">Hinata Hyuga (11)</label>
+											</li>
+											<li>
+												<input id="a-6" class="checkbox-custom" name="a-6" type="checkbox">
+												<label for="a-6" class="checkbox-custom-label">Mike hussy (4)</label>
+											</li>
+											<li>
+												<input id="a-7" class="checkbox-custom" name="a-7" type="checkbox">
+												<label for="a-7" class="checkbox-custom-label">Adam Riky (7)</label>
+											</li>
+											<li>
+												<input id="a-8" class="checkbox-custom" name="a-8" type="checkbox">
+												<label for="a-8" class="checkbox-custom-label">Balcony</label>
+											</li>
+											<li>
+												<input id="a-9" class="checkbox-custom" name="a-9" type="checkbox">
+												<label for="a-9" class="checkbox-custom-label">Icon</label>
+											</li>
+										</ul>
+										
+										<h4 class="side_title">Price</h4>
+										<ul class="no-ul-list mb-3">
+											<li>
+												<input id="a-10" class="checkbox-custom" name="a-10" type="checkbox">
+												<label for="a-10" class="checkbox-custom-label">All (75)</label>
+											</li>
+											<li>
+												<input id="a-11" class="checkbox-custom" name="a-11" type="checkbox">
+												<label for="a-11" class="checkbox-custom-label">Free (15)</label>
+											</li>
+											<li>
+												<input id="a-12" class="checkbox-custom" name="a-12" type="checkbox">
+												<label for="a-12" class="checkbox-custom-label">Paid (60)</label>
+											</li>
+										</ul>
+										
+										<button class="btn btn-theme full-width mb-2">Filter Result</button>
+									
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- Row -->
+					<div class="row">	
+						
+						<div class="col-lg-12 col-md-12 col-sm-12">
+							
+
+							
+							<div class="row">
+						
+								<!-- img 1 -->
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/course.jpg" class="img-fluid" alt=""></a>
+										</div>
+									</div>	
+								</div>
+								<!-- img 1 -->
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/ngamba1.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<!-- img 1 -->
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/developer.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<!-- img 1 -->
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/ngamba.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<!-- img 1 -->
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/study1.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly19.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly14.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly8.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly18.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly11.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly9.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="education_block_grid style_2">
+										<div class="education_block_thumb n-shadow">
+											<a href="#"><img src="assets/img/garelly12.jpeg" class="img-fluid" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+
+							<!-- /Row -->
+							
+						</div>
+					
+					</div>
+					<!-- Row -->
+					
+				</div>
+			</section>
+			<!-- ============================ Full Width Courses End ================================== -->
+
+		<!-- ============================ Footer Start ================================== -->
+			<footer class="dark-footer skin-dark-footer">
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row align-items-center">
+
+							<div class="col-lg-6 col-md-6">
+								<p class="mb-0">© 2020 HealthEdu</p>
+							</div>
+
+							<div class="col-lg-6 col-md-6 text-right">
+								<ul class="footer-bottom-social">
+									<li><a href="#"><i class="ti-facebook"></i></a></li>
+									<li><a href="#"><i class="ti-twitter"></i></a></li>
+									<li><a href="#"><i class="ti-instagram"></i></a></li>
+									<li><a href="#"><i class="ti-linkedin"></i></a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- ============================ Footer End ================================== -->
+			
+						 <!-- Log In Modal -->
+			<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="registermodal" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
+					<div class="modal-content" id="registermodal">
+						<span class="mod-close" data-dismiss="modal" aria-hidden="true"><i class="ti-close"></i></span>
+						<div class="modal-body">
+							<h4 class="modal-header-title"><img src="assets/img/green-logo.jpg" class="logo img-responsive" alt="" /></h4>
+							<div class="login-form">
+								<form>
+
+									<div class="form-group">
+										<label>User Name</label>
+										<input type="text" class="form-control" placeholder="Username">
+									</div>
+
+									<div class="form-group">
+										<label>Password</label>
+										<input type="password" class="form-control" placeholder="*******">
+									</div>
+
+									<div class="form-group">
+										<button type="submit" class="btn btn-md btn-info full-width pop-login bg-green">Login</button>
+									</div>
+
+								</form>
+							</div>
+
+							<div class="social-login mb-3">
+								<ul>
+									<li>
+										<input id="reg" class="checkbox-custom" name="reg" type="checkbox">
+										<label for="reg" class="checkbox-custom-label">Save Password</label>
+									</li>
+									<li><a href="recover-password.html" class="theme-cl">Forget Password?</a></li>
+								</ul>
+							</div>
+
+							<div class="text-center">
+								<p class="mt-2">Haven't Any Account? <a href="register.html" class="link">Click here</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Modal -->
+			
+
+			<a id="back2Top" class="top-scroll" title="Back to top" href="#"><i class="ti-arrow-up"></i></a>
+			
+
+		</div>
+		<!-- ============================================================== -->
+		<!-- End Wrapper -->
+		<!-- ============================================================== -->
+
+		<!-- ============================================================== -->
+		<!-- All Jquery -->
+		<!-- ============================================================== -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/select2.min.js"></script>
+		<script src="assets/js/slick.js"></script>
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/counterup.min.js"></script>
+		<script src="assets/js/custom.js"></script>
+		<!-- ============================================================== -->
+		<!-- This page plugins -->
+
+	</body>
+</html>
